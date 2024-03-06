@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: Poppins;
+}
+html {
+  height: 100%;
+  background-color: #eff0f4;
+}
+
+.Heading {
+  text-align: center;
+  font-size: 40px;
+  color: #BF1E20;
+  margin: 0;
+}
+
+.Pera {
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+  margin: 0;
+}
+
+.inp {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+
+  align-self: center;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.box {
+  border: none;
+  background-color: #f2f2f2;
+  height: 40px;
+  display: none;
+}
+
+.btn {
+  background-color: teal;
+  border: none;
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.center {
+  text-align: center !important;
+}
+i {
+  color: white;
+  background-color: #BF1E20;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 25px;
+  transition: 0.4s;
+}
+
+.mail a {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.4s;
+  margin: 0;
+}
+i:hover {
+  transform: scale(1.1);
+  background-color: red;
+}
+
+.content .time {
+  background-color: #BF1E20;
+  height: 60px;
+  padding: 0px;
+  width: 55px;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+}
+#days,
+#hours,
+#minutes,
+#seconds {
+  font-size: 39px !important;
+}
+.content {
+  display: flex;
+  margin-right: 10px;
+  width: 30%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px rgb(128, 128, 128);
+}
+
+.black {
+  color: #000;
+}
+
+h1 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.logo {
+  height: 150px;
+  width: 350px;
+  margin: auto;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+.graphics {
+  height: 444px;
+  width: auto;
+  margin-top: 20px;
+}
+
+.graphics img {
+  height: 100%;
+  width: 100%;
+}
