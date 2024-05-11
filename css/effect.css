@@ -10,7 +10,7 @@
 .effect-1 {
   width: 30px;
   height: 30px;
-  border: 4px solid teal;
+  border: 4px solid red;
   right: 10%;
   position: absolute;
   bottom: 10%;
@@ -31,7 +31,7 @@
 .effect-2 div {
   height: 3px;
   width: 3px;
-  background-color: #ff9c07;
+  background-color: #ff0707;
   margin: 0 3px 8px;
 }
 .effect-3 {
@@ -39,7 +39,7 @@
   width: 180px;
   border: 25px solid var(--skin-color);
   border-radius: 50%;
-  border: 20px solid teal;
+  border: 20px solid red;
   top: -130px;
   left: 59%;
   position: absolute;
@@ -50,7 +50,7 @@
 
 .effect-4 {
   border-top: 30px solid transparent;
-  border-left: 30px solid teal;
+  border-left: 30px solid red;
   left: 30%;
   top: 20%;
   animation: spin 15s linear infinite;
@@ -58,7 +58,7 @@
 .effect-4:before {
   content: "";
   border-top: 30px solid transparent;
-  border-left: 30px solid teal;
+  border-left: 30px solid red;
   position: absolute;
   opacity: 0.5;
   left: -35px;
@@ -78,7 +78,7 @@
 
 .effect-5 div {
   width: 1px;
-  background-color: #4dd0e1;
+  background-color: #e14d4d;
 }
 @keyframes spin {
   0% {
