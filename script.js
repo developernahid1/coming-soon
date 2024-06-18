@@ -1,4 +1,4 @@
-const launchDate = new Date("June 15, 2024 00:00:00").getTime();
+const launchDate = new Date("June 25, 2024 00:00:00").getTime();
 const intvl = setInterval(() => {
   const now = new Date().getTime();
   const distance = launchDate - now;
